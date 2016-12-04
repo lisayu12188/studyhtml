@@ -1,0 +1,126 @@
+body{
+	font-family: verdana, geneva, arial, sans-serif;
+	font-size: small;
+	background-color: #b5a789;
+	margin: 0px;
+}
+h1{
+	font-size: 130%;
+	color: maroon;
+
+}
+em{
+	font-style: italic;
+}
+#ad{
+	text-align: center;
+}
+#adwords{
+	font-weight: bold;
+	color: maroon;
+	line-height: 2;
+}
+
+a:hover{
+	color: blue;
+	border-bottom: thin dotted blue;
+}
+a{
+	text-decoration: none;
+	color: maroon;
+}
+
+nav{
+	font-weight: bold;
+}
+
+nav ul{
+	list-style-type: none;
+	background-color: #efe5d0;
+    margin: 10px 20px 0px 20px;
+    padding: 5px 0px 5px 0px;
+    
+
+}
+nav ul li{
+	display: inline;
+	padding: 5px 10px 5px 0px;
+	text-align: left;
+}
+
+.selected{
+	padding: 5px 10px 5px 10px;
+	background-color: #c8b99c;
+}
+
+header{background-color: #675c47;
+	padding: 0px;
+	height: 108px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#headerslogan{
+	float: right;
+}
+#tablecontainer{
+	display: table;
+	border-spacing: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: top;
+
+}
+table-row{
+	display: table-row;
+
+	
+}
+/*#drinks,main,aside{
+	vertical-align: top;
+
+}*/
+#drinks{
+	display: table-cell;
+	width: 20%;
+	background-color: #efe5d0;
+	padding: 15px;
+}
+main{
+	display: table-cell;
+	background-image: url(starbuzz/images/background.gif);
+	background-position: top left;
+	background-repeat: repeat;
+	vertical-align: top;
+	padding: 15px;
+
+}
+aside{
+	display: table-cell;
+	background-image: url(starbuzz/images/background.gif);
+	background-position: bottom right;
+	vertical-align: top;
+	padding: 15px;
+}
+
+
+footer{
+	font-size: 90%;
+	color: white;
+	text-align: center;
+	padding:2px;
+	background-color:  #675c47;
+	margin: 0px 20px 0px 20px;
+	text-align: center;
+}
+#award{
+	position: absolute;
+	left: 500px;
+	top: 40px;
+}
+#ticket{
+	position: absolute;
+	top: 400px;
+	left: -90px;
+	opacity: 0.8;
+
+}
